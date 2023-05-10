@@ -1,3 +1,9 @@
+---
+title: Hemi ECU Bench Harness
+type: docs
+weight: 5
+---
+
 Here is the NGC3 bench pinout:
 Dodge NGC3, 38 Pin
 (C1 Connector - Left Side)

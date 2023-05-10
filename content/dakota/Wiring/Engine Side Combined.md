@@ -1,3 +1,9 @@
+---
+title: Swap Harness Pinout
+type: docs
+weight: 1
+---
+
 # C130 
 | Pin | Fn | Hemi Pin | Dakota Pin | Notes |
 | --- | -- | -------- | ---------- | ----- |

@@ -1,3 +1,9 @@
+---
+title: Factory Hemi Harness Pinouts
+type: docs
+weight: 3
+---
+
 Bench harness info can be found at [[Bench Pinouts]].
 # C130
 Hemi C130 engine side pinout

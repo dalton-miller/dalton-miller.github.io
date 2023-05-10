@@ -1,3 +1,9 @@
+---
+title: Factory Dakota Harness Pinouts
+type: docs
+weight: 2
+---
+
 # C105
 C105 engine side pinout
 ![[Pasted image 20220630132219.png]]

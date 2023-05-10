@@ -1,3 +1,9 @@
+---
+title: 08+ Dakota Pedal Wiring
+type: docs
+weight: 4
+---
+
 ![[Pasted image 20220815150806.png]]
 
 | Pin | Circuit | Fn |

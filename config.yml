@@ -3,12 +3,42 @@ languageCode: en-us
 title: Dalton's Notes
 #theme: Docsy
 
+contentDir: content
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
 enableRobotsTXT: true
+enableGitInfo: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 
 googleAnalytics: G-FSTZRCJFNC
+
+languages:
+  en:
+    title: Dalton's Notes
+    description: Brain dump
+    languageName: English
+    weight: 1
+
+taxonomies:
+  tag: tags
+  category: categories
+
+permalinks:
+  blog: /:section/:year/:month/:day/:slug/
+
+outputs:
+  section:
+  - HTML
+  - print
+  - RSS
+
+imaging:
+  resampleFilter: CatmullRom
+  quality: 75
+  anchor: smart
 
 module:
   proxy: direct
@@ -24,6 +54,27 @@ minify:
   minifyOutput: true
 
 params:
+  copyright: Dalton Miller
   env: production
   offlineSearch: true
   algolia_docsearch: false
+  pygmentsCodeFences: false
+  prism_syntax_highlighting: false
+  ui:
+    breadcrumb_disable: false
+    footer_about_disable: true
+    navbar_logo: false
+    feedback:
+      enable: false
+    readingtime:
+      enable: false
+  taxonomy:
+    taxonomyCloud:
+    - tags
+    - categories
+    taxonomyCloudTitle:
+    - Tag Cloud
+    - Categories
+    taxonomyPageHeader:
+    - tags
+    - categories
