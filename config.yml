@@ -2,3 +2,24 @@ baseURL: https://notes.daltonmiller.me
 languageCode: en-us
 title: Dalton's Notes
 theme: PaperMod
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+params:
+  defaultTheme: auto
+  env: production
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
