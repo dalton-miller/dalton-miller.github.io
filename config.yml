@@ -2,6 +2,7 @@ baseURL: https://notes.daltonmiller.me
 languageCode: en-us
 title: Dalton's Notes
 theme: PaperMod
+googleAnalytics: G-FSTZRCJFNC
 outputs:
   home:
     - HTML
