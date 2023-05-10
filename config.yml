@@ -27,7 +27,7 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   UseHugoToc: true
   comments: false
