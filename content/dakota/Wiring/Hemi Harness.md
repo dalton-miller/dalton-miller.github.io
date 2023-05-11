@@ -6,8 +6,8 @@ weight: 3
 
 Bench harness info can be found at [[Bench Pinouts]].
 # C130
-Hemi C130 engine side pinout
-![[Pasted image 20220630132016.png]]
+Hemi C130 engine side pinout  
+![Hemi C130 Connector](/images/hemi-c130.png)
 | Pin | Circuit | Fn |
 | --- | ------- | -- |
 | 1 | D15 18WT/DG | SCI Transmit (TCM) |
@@ -52,7 +52,7 @@ C2 = Orange: remaining coils, injectors, monitoring
 C3 = White: aux connections
 C4 = Green: tranny connections
 
-![[Pasted image 20220630132128.png]]
+![Hemi C1 ECU Connector](/images/hemi-c1.png)
 
 ## C1
 C1 pinout
@@ -225,5 +225,3 @@ C4 pinout
 | 36 | - | |
 | 37 | T42 18DG/YL | TRS T42 Sense |
 | 38 | T16 18YL/OR | Trans Ctrl Relay Output |
-
-#wiringdiagram #dakota 

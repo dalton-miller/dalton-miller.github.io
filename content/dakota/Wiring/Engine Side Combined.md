@@ -7,7 +7,7 @@ weight: 1
 # C130 
 | Pin | Fn | Hemi Pin | Dakota Pin | Notes |
 | --- | -- | -------- | ---------- | ----- |
-| 1 | SCI Transmit (TCM) | [C130](Hemi%20Harness.md#C130 Harness#C130>) #1 D15 18WT/DG | [C107](Dakota%20Harness.md#C107 Harness#C107>) #3 D21 18PK |
+| 1 | SCI Transmit (TCM) | [C130](/dakota/wiring/hemi-harness) #1 D15 18WT/DG | [C107](/dakota/wiring/dakota-harness) #3 D21 18PK |
 | 2 | SCI Receive (TCM) | C130 #2 D16 18WT/OR | C107 #2 D22 20PK/BK |
 | 3 | P/S Switch | C130 #3 K66 18DB/WT | C1 #12 K10 18DB/OR |
 | 4 | ASD Relay Output | C130 #4 K342 16BR/WT | C106 #10 A142 14DG/OR |
@@ -25,7 +25,7 @@ weight: 1
 | 16 | Trans Ctrl Relay Output | C130 #16 T16 18YL/OR | C105 #2 T16 18RD |
 | 17 | - | | |
 | 18 | Tow/Haul OD-off Switch | C130 #18 T6 18DG | C107 #7 T6 18OR/WT |
-| 19 | Sensor Ground | C130 #19 K900 20DB/DG | C1 #4 K4 18BK/LB | [[#C130 2]] |
+| 19 | Sensor Ground | C130 #19 K900 20DB/DG | C1 #4 K4 18BK/LB | [#C130 2](#c130-2) |
 | 20 | Trans Ctrl Relay Ctrl | C130 #20 T515 20YL/DB | C107 #5 T15 18LG |
 | 21 | O2 2/2 Heater | Delete | Delete |
 | 22 | VSS #1 | C130 #22 B22 18DG/YL | C106 G7 18WT/OR |
@@ -34,9 +34,9 @@ weight: 1
 | 25 | - | | |
 | 26 | Ignition Switch Start | C130 #26 T751 16YL | C106 #11 A169 RD/YL |
 | 27 | O2 1/2 Heater | C130 #27 K299 18BR/WT | ??? (one relay for both?) |
-| 28 | 5V+ | C130 #28 F855 18PK/YL | C1 #17 K7 18OR | [[#C130 1]] |
+| 28 | 5V+ | C130 #28 F855 18PK/YL | C1 #17 K7 18OR | [#C130 1](#c130-1) |
 | 29 | VSS #2 | C130 #29 B222 20DG/WT | N/A (all-wheel ABS only) |
-| 30 | 5V+ | C130 #30 F856 18YL/PK | TCM #38 T38 18VT/TN | [[#C130 1]] |
+| 30 | 5V+ | C130 #30 F856 18YL/PK | TCM #38 T38 18VT/TN | [#C130 1](#c130-1) |
 | 31 | - | | |
 | 32 | T-case Return | C130 #32 T525 18YL/DB | N/A |
 | 33 | T-case Pos Sense | C130 #33 K77 18BR/WT | N/A |
@@ -79,7 +79,7 @@ Keep:
 | 18 | S/C Switch #2 Sig | V38 20VT/OR | | Cruise |
 | 19 | ASD Relay Output | K342 16BR/WT | #12 A142 14DG/OR |
 | 20 | Evap Purge Sol Ctrl | K52 18DB/WT | | Delete |
-| 21 | TRS (Park/Neutral) - in N | T41 20YL/DB | C106 #22 T41 18BK/WT | [[#C3 1]] |
+| 21 | TRS (Park/Neutral) - in N | T41 20YL/DB | C106 #22 T41 18BK/WT | [#C3 1](#c3-1) |
 | 22 | PTO Switch Sen | G113 18VT | | N/A |
 | 23 | Brake Switch Sig | B29 20DG/WT | #24 V40 18WT/PK |
 | 24 | - |
@@ -96,7 +96,7 @@ Keep:
 | 35 | Vac Leak Switch Sig | K107 18VT/WT | | Delete |
 | 36 | APPS #2 Sig | K29 20WT/BR | | Pedal |
 | 37 | Fuel Pump Relay Ctrl | K31 20BR | #19 K31 18BR |
-| 38 | Starter Relay Ctrl | T752 20DG/OR | C106 #11 A169 18RD/YL | [[#C3 3]] |
+| 38 | Starter Relay Ctrl | T752 20DG/OR | C106 #11 A169 18RD/YL | [#C3 3](#c3-3) |
 
 ## Notes
 ##### C3 #1

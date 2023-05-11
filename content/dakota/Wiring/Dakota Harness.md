@@ -5,8 +5,8 @@ weight: 2
 ---
 
 # C105
-C105 engine side pinout
-![[Pasted image 20220630132219.png]]
+C105 engine side pinout  
+![Dakota C105 Connector](/images/dakota-c105.png)
 | Pin | Circuit | Fn |
 | --- | ------- | -- |
 | 1 | - | |
@@ -21,8 +21,8 @@ C105 engine side pinout
 | 10 | F84 16YL/WT | Battery + |
 
 # C106
-C106 engine side pinout
-![[Pasted image 20220630132226.png]]
+C106 engine side pinout  
+![Dakota C106 Connector](/images/dakota-c106.png)
 | Pin | Circuit | Fn | Notes |
 | --- | ------- | -- | ------ |
 | 1 | F142 16OR/DG | ASD Relay Output |
@@ -51,8 +51,8 @@ C106 engine side pinout
 | 24 | - | |
 
 # C107
-C107 engine side 
-![[Pasted image 20220630132248.png]]
+C107 engine side  
+![Dakota C107 Connector](/images/dakota-c107.png)
 | Pin | Circuit | Fn |
 | --- | ------- | -- |
 | 1 | - | |
@@ -67,12 +67,12 @@ C107 engine side
 | 10 | C24 18DB/PK | Rad Fan Relay Ctrl |
 
 # ECU
-ECU connectors
-C1 = black
-C2 = white
+ECU connectors  
+C1 = black  
+C2 = white  
 C3 = gray
 
-![[Pasted image 20220630132323.png]]
+![Dakota C1 ECU Connector](/images/dakota-c1.png)
 
 ## C1
 C1 pinout
